@@ -78,11 +78,12 @@ node index.js
 # or
 nodemon index.js
 ### Folder Structure
-
+```
 my-node-app/
 ├── routes/              
 ├── server.js            
-├── package.json         
+├── package.json
+```   
 
 ## 5. Java (Spring Boot)
 ### Install Dependencies
@@ -100,7 +101,7 @@ mvn spring-boot:run
 # or Gradle
 ./gradlew bootRun
 ### Folder Structure
-
+```
 my-spring-app/
 ├── src/
 │   └── main/
@@ -111,7 +112,7 @@ my-spring-app/
 │       └── resources/
 │           └── application.properties     
 ├── pom.xml  
-
+```
 ## 6. Go (Golang)
 ### Install Dependencies
 
@@ -120,10 +121,11 @@ go mod tidy
 
 go run main.go
 ### Folder Structure
-
+```
 my-go-app/
 ├── main.go           
-├── go.mod               
+├── go.mod
+```           
 ## 7. Python
 ### Install Dependencies
 
